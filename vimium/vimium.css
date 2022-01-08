@@ -1,7 +1,3 @@
-* {
-    font-family: 'Iosevka Term', monospace !important;
-}
-
 /* Link hint boxes */
 div > .vimiumHintMarker {
   background: #282a36;
@@ -110,6 +106,7 @@ div.vimiumHUD .vimiumHUDSearchAreaInner {
   color: #bd93f9;
   margin-right: 4px;
 }
+
 #vomnibar li .vomnibarRelevancy {
   position: absolute;
   right: 0;
@@ -149,4 +146,16 @@ div.vimiumHUD .vimiumHUDSearchAreaInner {
 
 #vomnibarInput::selection {
   background-color: #8be9fd;
+}
+
+#vomnibar {
+  font-family: 'Iosevka Term', monospace !important;
+}
+
+.vimiumReset, div.vimiumReset, span.vimiumReset, table.vimiumReset, a.vimiumReset, a:visited.vimiumReset, a:link.vimiumReset, a:hover.vimiumReset, td.vimiumReset, tr.vimiumReset {
+  font-family: 'Iosevka Term', monospace !important;
+}
+
+#vomnibarInput {
+  font-family: 'Iosevka Term', monospace !important;
 }
