@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name           wikipedia.org
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Shivanshi
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+	/* This moves the sidebar off-screen */
+	#mw-panel {
+		opacity: 0;
+		margin-left: -11em;
+	}
+	/* This moves other stuff into the leftover space */
+	#content,
+	#head-base,
+	#footer,
+	#mw-head-base {
+		margin-left: -1px;
+	}
+	/* Nicer presentation for the left-hand tabs */
+	#left-navigation {
+		margin-left: 1em;
+	}
+}

@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           You Tube
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+    /* Insert code here... */
+    /*.ytp-doubletap-ui.ytp-time-seeking {
+        background: red !important;   
+    }*/
+    .ytp-doubletap-static-circle {
+        display: none !important;
+    }
+}

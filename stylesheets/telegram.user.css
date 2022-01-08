@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Telegram
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Black theme for telegram
+@author         Shivanshi
+==/UserStyle== */
+
+@-moz-document domain("web.telegram.org") {
+    * {
+        font-family: "Iosevka Nerd Font"
+    }
+    
+    html.night {
+        --primary-color: #6272a4;
+        --message-out-background-color: #3b4252;
+        --body-background-color: #282a36;
+        --surface-color: #282a36;
+        --input-search-background-color: #282a36;
+    }
+    
+    input, [contenteditable="true"] {
+        caret-color: #bd93f9;
+    }
+    
+    .menu-horizontal-div-item .rp {
+        color: #ffffff;
+    }
+}
